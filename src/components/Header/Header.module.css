@@ -1,0 +1,66 @@
+.box1 {
+  display: flex;
+  flex-direction: row;
+}
+.boxtittle {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  position: relative;
+  background-image: url("../../img/computer.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 320%;
+}
+.boxtittle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 253, 253, 0.836);
+  z-index: 0;
+}
+.content {
+  position: relative;
+  z-index: 1;
+}
+.boxtittle2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  gap: 200px;
+}
+.computer {
+  width: 40%;
+  height: 710px;
+  max-width: 100%;
+  display: block;
+  margin: 0;
+  object-fit: cover;
+}
+.tittle {
+  font-family: "PT Serif", serif;
+  font-size: 70px;
+  font-weight: 500;
+  margin-bottom: 200px;
+}
+.uppertittle {
+  color: rgb(57, 55, 55);
+  margin-top: 200px;
+  font-family: "PT Serif", serif;
+  font-weight: 200;
+  font-size: 15px;
+}
+.undertittle {
+  color: rgb(57, 55, 55);
+  font-family: "PT Serif", serif;
+  font-weight: 200;
+  font-size: 15px;
+}
