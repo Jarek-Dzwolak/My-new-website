@@ -1,0 +1,56 @@
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 710px;
+}
+.separator {
+  margin-top: 50px;
+  display: block;
+  height: 1px;
+  background-color: rgb(57, 55, 55);
+}
+.box1 {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-direction: row;
+}
+.tittle1 {
+  font-family: "PT Serif", serif;
+  text-align: center;
+  font-size: 30px;
+  text-wrap: nowrap;
+  font-weight: 500;
+  width: 100px;
+  height: 40px;
+  margin-right: 500px;
+}
+.tittle2 {
+  font-family: "PT Serif", serif;
+  font-size: 40px;
+  font-weight: 500;
+  position: relative;
+  top: 100px;
+  left: 19px;
+  width: 600px;
+}
+.img {
+  width: 420px;
+  height: 420px;
+  border-radius: 6px;
+  margin-right: 200px;
+}
+.box2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.text {
+  position: relative;
+  top: 100px;
+  margin-top: 70px;
+  font-family: "PT Serif", serif;
+  text-align: justify;
+  font-size: 18px;
+  max-width: 600px;
+  margin-right: 80px;
+}

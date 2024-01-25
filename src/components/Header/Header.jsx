@@ -11,8 +11,10 @@ function Header() {
             <p className={css.uppertittle}>CV&Portfolio</p>
             <h1 className={css.tittle}>Jarosław Dzwolak</h1>
             <div className={css.boxtittle2}>
-              <p className={css.undertittle}>Frontend Fullstack Developer</p>
-              <p className={css.undertittle}>Contact</p>
+              <p className={css.undertittle}>O mnie</p>
+              <p className={css.undertittle}>Umiejętności</p>
+              <p className={css.undertittle}>Projekty</p>
+              <p className={css.undertittle}>Kontakt</p>
             </div>
           </div>
         </div>
