@@ -60,6 +60,11 @@
 .undertittle {
   color: rgb(57, 55, 55);
   font-family: "PT Serif", serif;
-  font-weight: 200;
-  font-size: 15px;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.undertittle:hover {
+  transform: scale(1.1);
 }

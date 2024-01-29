@@ -1,30 +1,48 @@
 import React from "react";
+import css from "./Footer.module.css";
+import Photo from "../../img/Garniutur.jpg";
+import GitHub from "../../icon/GitHub.svg";
+import Instagram from "../../icon/Instagram.svg";
+import LinkedIn from "../../icon/Linkedin.svg";
 
 function Footer() {
   return (
-    <div className="flex space-x-4">
-      <a
-        href="https://www.facebook.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-500 hover:text-blue-700">
-        Facebook
-      </a>
-      <a
-        href="https://twitter.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-400 hover:text-blue-600">
-        Twitter
-      </a>
-      <a
-        href="https://www.instagram.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-pink-500 hover:text-pink-700">
-        Instagram
-      </a>
-      {/* Dodaj linki do innych platform według potrzeb */}
+    <div className={css.container} id="contact">
+      <span className={css.separator}></span>
+      <div className={css.box1}>
+        <h3 className={css.tittle1}>Kontakt</h3>
+      </div>
+      <div className={css.box2}>
+        <img className={css.img} src={Photo} />
+        <div className={css.box3}>
+          <div>
+            <h4 className={css.tittle2}>Email</h4>
+            <a className={css.text} href="mailto:jaroslawdzwolak@gmail.com">
+              jaroslawdzwolak@gmail.com
+            </a>
+          </div>
+          <div>
+            <h4 className={css.tittle2}>Telefon</h4>
+            <a className={css.text} href="tel:+48509233128">
+              +48509233128
+            </a>
+          </div>
+          <div>
+            <h4 className={css.tittle2}>Serwisy społecznościowe</h4>
+            <div className={css.box4}>
+              <a href="link_do_profilu_GitHub">
+                <img className={css.icon} src={GitHub} alt="GitHub" />
+              </a>
+              <a href="link_do_profilu_LinkedIN">
+                <img className={css.icon} src={LinkedIn} alt="LinkedIN" />
+              </a>
+              <a href="link_do_profilu_Instagram">
+                <img className={css.icon} src={Instagram} alt="Instagram" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

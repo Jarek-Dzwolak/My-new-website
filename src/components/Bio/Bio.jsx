@@ -4,7 +4,7 @@ import Profilowe from "../../img/Profilowe1.jpg";
 
 function Bio() {
   return (
-    <div className={css.container}>
+    <div className={css.container} id="bio">
       <span className={css.separator}></span>
       <div className={css.box1}>
         <h2 className={css.tittle1}>O mnie</h2>
