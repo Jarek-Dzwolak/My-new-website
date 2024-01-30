@@ -30,13 +30,13 @@ function Footer() {
           <div>
             <h4 className={css.tittle2}>Serwisy społecznościowe</h4>
             <div className={css.box4}>
-              <a href="link_do_profilu_GitHub">
+              <a href="https://github.com/Jarek-Dzwolak">
                 <img className={css.icon} src={GitHub} alt="GitHub" />
               </a>
-              <a href="link_do_profilu_LinkedIN">
+              <a href="https://www.linkedin.com/in/jaros%C5%82aw-dzwolak-4392701a9/">
                 <img className={css.icon} src={LinkedIn} alt="LinkedIN" />
               </a>
-              <a href="link_do_profilu_Instagram">
+              <a href="https://www.instagram.com/jarek.dzwolak/">
                 <img className={css.icon} src={Instagram} alt="Instagram" />
               </a>
             </div>

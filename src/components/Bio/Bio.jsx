@@ -21,9 +21,9 @@ function Bio() {
           znaczenia responsywności stron jest dla mnie kluczowe. Nieustannie
           doskonalę swoje umiejętności, aby dostarczać rozwiązania o najlepszej
           wydajności i funkcjonalności. Priorytetem dla mnie jest zapewnienie,
-          aby każda współpraca zemną była pełna satysfakcji zarówno dla mnie,
-          jak i dla klientów. Jestem otwarty na nowe wyzwania i gotowy pomóc w
-          każdym projekcie, by osiągnąć wspólne cele.
+          aby każda współpraca zemną satysfakcjonująca zarówno dla mnie, jak i
+          dla klientów. Jestem otwarty na nowe wyzwania i gotowy pomóc w każdym
+          projekcie, by osiągnąć wspólne cele.
         </p>
       </div>
     </div>
